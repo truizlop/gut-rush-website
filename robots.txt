@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://truizlop.github.io/gut-rush-website/sitemap.xml
