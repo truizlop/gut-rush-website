@@ -34,3 +34,7 @@ The planned US purchase prices are conditional, not active offers. Localized App
 ## Verification
 
 Check the home, three content pages, keyboard navigation, both video clips, carousel ends, no-JavaScript fallbacks, reduced motion and mobile layouts before publishing changes. Keep QA recordings, test logs and screenshots outside this repository. `404.html` uses absolute project URLs so nested unknown paths retain styling and a working home link.
+
+## Social sharing
+
+All pages use `assets/gut-rush-social-v1.jpg`, a dedicated 1200×630 JPEG, for Open Graph and Twitter/X large-image cards. Metadata includes dimensions, image type, alt text and page-specific titles/descriptions. The built-in image-generation prompt and provenance are in `asset-provenance.json`. Use a new versioned filename when replacing the image to avoid stale image caches.
