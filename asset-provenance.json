@@ -1,0 +1,112 @@
+[
+  {
+    "asset": "assets/logo.webp",
+    "source": "GutRush/Assets.xcassets/ExpeditionLogo.imageset/ExpeditionLogo.png",
+    "sha256": "1a933d76941fe5b25af598e5c6d937e09a22c0f8d869d4c8a0ad1a2ecd10288b"
+  },
+  {
+    "asset": "assets/headline.webp",
+    "source": "GutRush/Assets.xcassets/ExpeditionHeadline.imageset/ExpeditionHeadline.png",
+    "sha256": "4e32bf4b317a662697a4f4fa8d330ffc5f47bc21305e9e4c509f2d0163e67da9"
+  },
+  {
+    "asset": "assets/paper.webp",
+    "source": "GutRush/Assets.xcassets/ExpeditionPaperDetail.imageset/ExpeditionPaperDetail.png",
+    "sha256": "22d245d99ca0b2246ccb02eba896e41664b9b0d8f27afa470e717e3634ca14e3"
+  },
+  {
+    "asset": "assets/stamp.webp",
+    "source": "GutRush/Assets.xcassets/ExpeditionStamp.imageset/ExpeditionStamp.png",
+    "sha256": "759b802aff13042bbcc852fce5cb2fcd817b983be078615b5a32515b62ed2e70"
+  },
+  {
+    "asset": "assets/postcard-mouth.webp",
+    "source": "GutRush/Assets.xcassets/PostcardMouth.imageset/PostcardMouth.png",
+    "sha256": "0ace386d63248d48f4cd93fec10a76e3b60746f68c4a63660edd932d40621751"
+  },
+  {
+    "asset": "assets/postcard-pharynx.webp",
+    "source": "GutRush/Assets.xcassets/PostcardPharynx.imageset/PostcardPharynx.png",
+    "sha256": "14abb724ce5b2228447c2b5710a7fb184d06dc6d8daf6f35809d1d58f81f0c56"
+  },
+  {
+    "asset": "assets/postcard-esophagus.webp",
+    "source": "GutRush/Assets.xcassets/PostcardEsophagus.imageset/PostcardEsophagus.png",
+    "sha256": "b96d6557dd70cda2e8a15e665d33bc0d7291bb4cb2c66fc1089d805a49d3d85f"
+  },
+  {
+    "asset": "assets/postcard-stomach.webp",
+    "source": "GutRush/Assets.xcassets/PostcardStomach.imageset/PostcardStomach.png",
+    "sha256": "d4253ae372332d5b6273d050aaa4abb6f219acedb74ba12e4095eb084287076a"
+  },
+  {
+    "asset": "assets/postcard-duodenum.webp",
+    "source": "GutRush/Assets.xcassets/PostcardDuodenum.imageset/PostcardDuodenum.png",
+    "sha256": "2bfc74fbb1f361063831a7c51b3be2591e232e5efb409cb6974b19b4b5277f92"
+  },
+  {
+    "asset": "assets/postcard-smallintestine.webp",
+    "source": "GutRush/Assets.xcassets/PostcardSmallIntestine.imageset/PostcardSmallIntestine.png",
+    "sha256": "ba996216c2885126dfe3cfd19f0d76cedabcb0fe4fb7c80259e8c33d548f3436"
+  },
+  {
+    "asset": "assets/postcard-largeintestine.webp",
+    "source": "GutRush/Assets.xcassets/PostcardLargeIntestine.imageset/PostcardLargeIntestine.png",
+    "sha256": "dcfa1db9d08618d0d24c2abac2393fb8e0cb39b97d8d4b32b0d84370c30b7fdd"
+  },
+  {
+    "asset": "assets/postcard-exit.webp",
+    "source": "GutRush/Assets.xcassets/PostcardExit.imageset/PostcardExit.png",
+    "sha256": "08fa7a04c24af7610c8ed30ea6ad5ca28e26ef707bb1a1e686b79eb5614030a0"
+  },
+  {
+    "asset": "assets/DynaPuff-OFL.txt",
+    "source": "Gut Rush AppIcon or bundled DynaPuff font and licence",
+    "sha256": "ad0bc2ae83f6dbf6f3edde26752324260c2fbaf9cc021748d363a879dd5b749c"
+  },
+  {
+    "asset": "assets/DynaPuff.ttf",
+    "source": "Gut Rush AppIcon or bundled DynaPuff font and licence",
+    "sha256": "c3752fc6dd8aaa46a88637f061a9a4e6ab44c02c5f0afd65528b91ae8ff6f948"
+  },
+  {
+    "asset": "assets/apple-touch-icon.png",
+    "source": "Gut Rush AppIcon or bundled DynaPuff font and licence",
+    "sha256": "02d9b4ba7b3a712e50e1d7cdba5f26eede76bbb32e0a383c9794d571e670e9bb"
+  },
+  {
+    "asset": "assets/favicon.png",
+    "source": "Gut Rush AppIcon or bundled DynaPuff font and licence",
+    "sha256": "8d48b795be788c37c1cf51e97eb605a322d7e0271c53da68c577c70e99edb219"
+  },
+  {
+    "asset": "assets/gameplay-duodenum.jpg",
+    "source": "iPhone 17e simulator recording, 2026-09-18; Mouth stage 0 or Duodenum stage 4; --disable-ads --disable-purchases --qa-level; silent, scaled and encoded",
+    "sha256": "47006922a234eec82971f74b8b2b86e566ff3039dde5bb682c305da0d0ce64c5"
+  },
+  {
+    "asset": "assets/gameplay-duodenum.mp4",
+    "source": "iPhone 17e simulator recording, 2026-09-18; Mouth stage 0 or Duodenum stage 4; --disable-ads --disable-purchases --qa-level; silent, scaled and encoded",
+    "sha256": "3f1dbcc883f6282b03527384af86ba59e43380834bc7f94356e4016f8ebb5c22"
+  },
+  {
+    "asset": "assets/gameplay-mouth.jpg",
+    "source": "iPhone 17e simulator recording, 2026-09-18; Mouth stage 0 or Duodenum stage 4; --disable-ads --disable-purchases --qa-level; silent, scaled and encoded",
+    "sha256": "09e682738eb65da7f7cddffda2601a6f430fe9e7d3ea183a541ec828f2bb3e24"
+  },
+  {
+    "asset": "assets/gameplay-mouth.mp4",
+    "source": "iPhone 17e simulator recording, 2026-09-18; Mouth stage 0 or Duodenum stage 4; --disable-ads --disable-purchases --qa-level; silent, scaled and encoded",
+    "sha256": "5e1edd863101a8c833c3ee60c9ddc5a20a041534d568d14e0ff2d338cfde2bc3"
+  },
+  {
+    "asset": "assets/icon.png",
+    "source": "Gut Rush AppIcon or bundled DynaPuff font and licence",
+    "sha256": "256927b4891922648957f7675cf4e827cc78fcfa81a218fc6ab4a18785d7781c"
+  },
+  {
+    "asset": "assets/paper-soft.webp",
+    "source": "GutRush/Assets.xcassets/ExpeditionPaper.imageset/ExpeditionPaper.png",
+    "sha256": "bfdfc0e42cbcaf871b87cf11881b42c3e37f60aa6ec1dd3ef826f9d08a73eeff"
+  }
+]
