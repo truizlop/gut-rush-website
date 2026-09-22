@@ -27,9 +27,9 @@ The inline video is muted, pauses outside the viewport or when the page is hidde
 
 ## Content maintenance
 
-The published copy reflects TestFlight 1.0 (7): no public App Store release, live ads disabled, purchases disabled. Before changing that state, update the availability copy and policies to match the actual service configuration, replace the status with an actual App Store link when available, and verify the final privacy disclosures. No public TestFlight invitation is implied or fabricated.
+The published copy reflects the public App Store launch of 1.0 (8) and describes Firebase Analytics/Crashlytics starting with 1.1 (9). It distinguishes paid App Store purchases from no-charge TestFlight sandbox transactions and preserves Google ad-review/availability limitations. The privacy policy includes Firebase identifiers/events/diagnostics and its advertising restrictions. No public TestFlight invitation is implied or fabricated.
 
-The planned US purchase prices are conditional, not active offers. Localized Apple confirmation controls any actual purchase. The legal pages reference primary provider documentation. This website deployment does not change app flags, in-app URLs, App Store Connect metadata, ad account settings or RevenueCat configuration.
+The listed US purchase prices describe the configured offers. Localized Apple confirmation controls any actual purchase. The legal pages reference primary provider documentation. This website deployment does not change app flags, in-app URLs, App Store Connect metadata, ad account settings or RevenueCat configuration.
 
 ## Verification
 
