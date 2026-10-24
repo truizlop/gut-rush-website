@@ -120,5 +120,29 @@
     "source": "Native HTML/CSS rendering at 1200×630 using existing authorized assets/postcard-mouth.webp, logo.webp, paper-soft.webp and DynaPuff.ttf, 2026-10-24. German lettering; not an app screenshot.",
     "sha256": "f8de07cc946ff8be30c18e2c8977afc04d4fe2fe18df2f59f3d0b0dbd6102549",
     "copy": "Kleiner Bissen. Großes Abenteuer. Acht Organwelten entdecken. Für iPhone und iPad."
+  },
+  {
+    "asset": "assets/gameplay-mouth-de.png",
+    "source": "Authentic German Gut Rush 2.1 (18) iPhone 17e Simulator (iOS 27.0) capture, 2026-10-24: store-stage-1.png. StoreScreenshotCaptureTests with --disable-ads and DEBUG stage selection only; fixture bypasses progression without reporting scores or achievements. Original PNG pixels retained.",
+    "captureRecord": "Gut Rush app repository: .shots/captures/de-DE-iphone-2026-10-24/capture-record.json",
+    "sha256": "d57da5a7128f6dd81497c077313cdcdedd56a69a01ca4e2bf86d500a68f9fde9",
+    "dimensions": [
+      1170,
+      2532
+    ],
+    "locale": "de-DE",
+    "chapter": "Mund"
+  },
+  {
+    "asset": "assets/gameplay-stomach-de.png",
+    "source": "Authentic German Gut Rush 2.1 (18) iPhone 17e Simulator (iOS 27.0) capture, 2026-10-24: store-stage-4.png. StoreScreenshotCaptureTests with --disable-ads and DEBUG stage selection only; fixture bypasses progression without reporting scores or achievements. Original PNG pixels retained.",
+    "captureRecord": "Gut Rush app repository: .shots/captures/de-DE-iphone-2026-10-24/capture-record.json",
+    "sha256": "e5494000f13e878e13271217173961df3a175f4514a9b991db57eab27a3fe06a",
+    "dimensions": [
+      1170,
+      2532
+    ],
+    "locale": "de-DE",
+    "chapter": "Magen"
   }
 ]

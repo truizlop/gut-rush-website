@@ -79,6 +79,24 @@
       document.querySelectorAll('[data-clip]').forEach(other => other.setAttribute('aria-pressed', String(other === button)));
     }));
   }
+  const capture = document.querySelector('#full-capture');
+  if (dialog && capture) {
+    document.querySelectorAll('[data-watch]').forEach(link => link.addEventListener('click', event => {
+      event.preventDefault();
+      dialog.showModal();
+      document.body.style.overflow = 'hidden';
+    }));
+    document.querySelector('#close-video').addEventListener('click', () => dialog.close());
+    dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+    dialog.addEventListener('close', () => { document.body.style.overflow = ''; });
+    document.querySelectorAll('[data-capture]').forEach(button => button.addEventListener('click', () => {
+      const src = `${mediaPrefix}gameplay-${button.dataset.capture}-de.png`;
+      capture.src = src;
+      capture.alt = button.dataset.alt;
+      document.querySelector('#capture-download').href = src;
+      document.querySelectorAll('[data-capture]').forEach(other => other.setAttribute('aria-pressed', String(other === button)));
+    }));
+  }
   const rail = document.querySelector('#chapters');
   const next = document.querySelector('#next');
   const previous = document.querySelector('#previous');
