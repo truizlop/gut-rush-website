@@ -1,5 +1,8 @@
 (() => {
   'use strict';
+  const german = document.documentElement.lang === 'de';
+  const labels = german ? { play: 'Vorschau abspielen', pause: 'Vorschau pausieren', description: ' der Spielszenen' } : { play: 'Play preview', pause: 'Pause preview', description: ' of gameplay' };
+  const mediaPrefix = document.body.dataset.mediaPrefix || 'assets/';
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const preview = document.querySelector('#preview');
   const toggle = document.querySelector('#preview-toggle');
@@ -18,15 +21,15 @@
   const playPreview = () => {
     if (!preview || manuallyPaused || !previewInView || document.hidden || dialog?.open) return;
     loadVideo(preview);
-    preview.play().catch(() => { if (toggle) toggle.textContent = 'Play preview'; });
+    preview.play().catch(() => { if (toggle) toggle.textContent = labels.play; });
   };
   if (preview && toggle) {
     toggle.hidden = false;
     const updateLabel = () => {
       document.body.classList.toggle('motion-paused', preview.paused);
-      const text = preview.paused ? 'Play preview' : 'Pause preview';
+      const text = preview.paused ? labels.play : labels.pause;
       toggle.textContent = text;
-      toggle.setAttribute('aria-label', text + ' of gameplay');
+      toggle.setAttribute('aria-label', text + labels.description);
     };
     preview.addEventListener('play', updateLabel);
     preview.addEventListener('pause', updateLabel);
@@ -66,9 +69,9 @@
     });
     document.querySelectorAll('[data-clip]').forEach(button => button.addEventListener('click', () => {
       const clip = button.dataset.clip;
-      const src = `assets/gameplay-${clip}.mp4`;
+      const src = `${mediaPrefix}gameplay-${clip}.mp4`;
       video.pause();
-      video.poster = `assets/gameplay-${clip}.jpg`;
+      video.poster = `${mediaPrefix}gameplay-${clip}.jpg`;
       video.src = src;
       video.load();
       video.play().catch(() => {});

@@ -38,3 +38,9 @@ Check the home, three content pages, keyboard navigation, both video clips, caro
 ## Social sharing
 
 All pages use `assets/gut-rush-social-v1.jpg`, a dedicated 1200×630 JPEG, for Open Graph and Twitter/X large-image cards. Metadata includes dimensions, image type, alt text and page-specific titles/descriptions. The built-in image-generation prompt and provenance are in `asset-provenance.json`. Use a new versioned filename when replacing the image to avoid stale image caches.
+
+## German localization
+
+`/de/`, `/de/support/`, `/de/privacy/` and `/de/terms/` contain the complete German pages. Reciprocal footer links preserve the current page, with canonical and hreflang metadata. German headings use the existing bundled DynaPuff font; no English headline image is displayed. Dynamic video controls and accessibility text follow the document language. Existing authentic gameplay recordings retain their original English UI and are explicitly labelled as such in German. The localized social card uses existing authorized art and native German lettering; it is marketing artwork, not a fabricated app screenshot.
+
+German privacy and terms retain the same substantive clauses as English, including purchase prices, renewals, refunds, consumer remedies and children’s disclosures. The German copy preserves the current published disclosures, including automatic purchase-event measurement, Firebase controls, no-charge TestFlight sandbox transactions and ad-availability limitations. Release services were also checked against the current app source.
